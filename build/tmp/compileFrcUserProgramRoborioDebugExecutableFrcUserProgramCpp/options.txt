@@ -1,0 +1,41 @@
+-x
+c++
+-c
+-DDEBUG
+-std=c++14
+-g
+-rdynamic
+-pthread
+-Og
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\src\\main\\include"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\hal-cpp-2019.1.1-beta-1-headers.zip_631c14073a02924b1ee54e145c7a781e"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.1.1-beta-1-headers.zip_d95c0b0aa6febce043bf5bdaa1723022"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.1.1-beta-1-headers.zip_a64d646098460db05e7a9e6623023581"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\cscore-cpp-2019.1.1-beta-1-headers.zip_eb789de6bd80798cb597f83fbb45206d"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.1.1-beta-1-headers.zip_e5d7150878a6b4a5ac1843a159cd4175"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.3-7-headers.zip_d334b6b28027ac480820ff757f573de4"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\chipobject-2019.4.1-headers.zip_7a5a63d24d984c4dbe8dbb3fea3f6caf"
+-I
+"C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\SonarTest\\Sonar\\build\\tmp\\expandedArchives\\netcomm-2019.4.1-headers.zip_37fc4eac1734db11068f7e0a5f83c508"
+-isystem
+c:\\users\\public\\frc2019\\roborio\\bin\\..\\arm-frc2019-linux-gnueabi\\usr\\lib\\gcc\\arm-frc2019-linux-gnueabi\\6.3.0\\include
+-isystem
+c:\\users\\public\\frc2019\\roborio\\bin\\..\\arm-frc2019-linux-gnueabi\\usr\\lib\\gcc\\arm-frc2019-linux-gnueabi\\6.3.0\\include-fixed
+-isystem
+c:\\users\\public\\frc2019\\roborio\\bin\\..\\arm-frc2019-linux-gnueabi\\usr\\include\\c++\\6.3.0
+-isystem
+c:\\users\\public\\frc2019\\roborio\\bin\\..\\arm-frc2019-linux-gnueabi\\usr\\include\\c++\\6.3.0\\arm-frc2019-linux-gnueabi
+-isystem
+c:\\users\\public\\frc2019\\roborio\\bin\\..\\arm-frc2019-linux-gnueabi\\usr\\include\\c++\\6.3.0\\backward
+-isystem
+c:\\users\\public\\frc2019\\roborio\\bin\\..\\arm-frc2019-linux-gnueabi\\usr\\include

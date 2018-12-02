@@ -1,0 +1,22 @@
+See file:///C:/Users/Ryan%20Sheehy/Desktop/FRC%20Beta%20WorkSpace/SonarTest/Sonar/build/tmp/compileFrcUserProgramRoborioDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramRoborioDebugExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+In file included from C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\cpp\Robot.cpp:1:0:
+C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\include/Robot.h: In instantiation of 'int frc::StartRobot() [with Robot = Robot]':
+C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\cpp\Robot.cpp:59:44:   required from here
+C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\include/Robot.h:15:7: warning: 'frc::IterativeRobot::IterativeRobot()' is deprecated: Use TimedRobot instead. It's a drop-in replacement that provides more regular execution periods. [-Wdeprecated-declarations]
+ class Robot : public frc::IterativeRobot {
+       ^~~~~
+In file included from C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\include/Robot.h:12:0,
+                 from C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\cpp\Robot.cpp:1:
+C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c/frc/IterativeRobot.h:28:3: note: declared here
+   IterativeRobot();
+   ^~~~~~~~~~~~~~
+In file included from C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c/frc/IterativeRobotBase.h:10:0,
+                 from C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c/frc/IterativeRobot.h:10,
+                 from C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\include/Robot.h:12,
+                 from C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\src\main\cpp\Robot.cpp:1:
+C:\Users\Ryan Sheehy\Desktop\FRC Beta WorkSpace\SonarTest\Sonar\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c/frc/RobotBase.h:30:16: note: synthesized method 'Robot::Robot()' first required here 
+   static Robot robot;
+                ^~~~~
+
+Finished compileFrcUserProgramRoborioDebugExecutableFrcUserProgramCpp, see full log file:///C:/Users/Ryan%20Sheehy/Desktop/FRC%20Beta%20WorkSpace/SonarTest/Sonar/build/tmp/compileFrcUserProgramRoborioDebugExecutableFrcUserProgramCpp/output.txt.

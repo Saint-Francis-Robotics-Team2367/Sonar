@@ -1,0 +1,246 @@
+[
+  {
+    "name": "roborio",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "C:\\Users\\Public\\frc2019\\roborio\\bin\\arm-frc2019-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\Public\\frc2019\\roborio\\bin\\arm-frc2019-linux-gnueabi-gcc.exe",
+    "msvc": false,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\hal-cpp-2019.1.1-beta-1-headers.zip_631c14073a02924b1ee54e145c7a781e",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.1.1-beta-1-headers.zip_d95c0b0aa6febce043bf5bdaa1723022",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.1.1-beta-1-headers.zip_a64d646098460db05e7a9e6623023581",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cscore-cpp-2019.1.1-beta-1-headers.zip_eb789de6bd80798cb597f83fbb45206d",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.1.1-beta-1-headers.zip_e5d7150878a6b4a5ac1843a159cd4175",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.3-7-headers.zip_d334b6b28027ac480820ff757f573de4",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\chipobject-2019.4.1-headers.zip_7a5a63d24d984c4dbe8dbb3fea3f6caf",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\netcomm-2019.4.1-headers.zip_37fc4eac1734db11068f7e0a5f83c508",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.1.1-beta-1-sources.zip_d4ea3edaf23d84475065d270fa3caa3d",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\hal-cpp-2019.1.1-beta-1-sources.zip_99001a64a389db238b2bf81037e0b4e4",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.1.1-beta-1-sources.zip_0f78d8de27cf392a49bcddad90ddf4ed",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.1.1-beta-1-sources.zip_430e54e15fa5c5a58ed2da485a3346fa",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cscore-cpp-2019.1.1-beta-1-sources.zip_00ed33937366c6650b3dda3511860030",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.1.1-beta-1-sources.zip_abad493c271dc18d3c6c4574bab462d6"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\cpp"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-std\u003dc++14",
+              "-g",
+              "-rdynamic",
+              "-pthread",
+              "-Og"
+            ],
+            "macros": [
+              "DEBUG\u003dnull"
+            ]
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\hal-cpp-2019.1.1-beta-1-headers.zip_631c14073a02924b1ee54e145c7a781e",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.1.1-beta-1-headers.zip_d95c0b0aa6febce043bf5bdaa1723022",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.1.1-beta-1-headers.zip_a64d646098460db05e7a9e6623023581",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cscore-cpp-2019.1.1-beta-1-headers.zip_eb789de6bd80798cb597f83fbb45206d",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.1.1-beta-1-headers.zip_e5d7150878a6b4a5ac1843a159cd4175",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.3-7-headers.zip_d334b6b28027ac480820ff757f573de4",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\chipobject-2019.4.1-headers.zip_7a5a63d24d984c4dbe8dbb3fea3f6caf",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\netcomm-2019.4.1-headers.zip_37fc4eac1734db11068f7e0a5f83c508",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include"
+        ]
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\cpp"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-std\u003dc++14",
+          "-g",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [
+          "DEBUG\u003dnull"
+        ]
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-std\u003dc++14",
+          "-g",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [
+          "DEBUG\u003dnull"
+        ]
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "roborio",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "C:\\Users\\Public\\frc2019\\roborio\\bin\\arm-frc2019-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\Public\\frc2019\\roborio\\bin\\arm-frc2019-linux-gnueabi-gcc.exe",
+    "msvc": false,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\hal-cpp-2019.1.1-beta-1-headers.zip_631c14073a02924b1ee54e145c7a781e",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.1.1-beta-1-headers.zip_d95c0b0aa6febce043bf5bdaa1723022",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.1.1-beta-1-headers.zip_a64d646098460db05e7a9e6623023581",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cscore-cpp-2019.1.1-beta-1-headers.zip_eb789de6bd80798cb597f83fbb45206d",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.1.1-beta-1-headers.zip_e5d7150878a6b4a5ac1843a159cd4175",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.3-7-headers.zip_d334b6b28027ac480820ff757f573de4",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\chipobject-2019.4.1-headers.zip_7a5a63d24d984c4dbe8dbb3fea3f6caf",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\netcomm-2019.4.1-headers.zip_37fc4eac1734db11068f7e0a5f83c508",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.1.1-beta-1-sources.zip_d4ea3edaf23d84475065d270fa3caa3d",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\hal-cpp-2019.1.1-beta-1-sources.zip_99001a64a389db238b2bf81037e0b4e4",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.1.1-beta-1-sources.zip_0f78d8de27cf392a49bcddad90ddf4ed",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.1.1-beta-1-sources.zip_430e54e15fa5c5a58ed2da485a3346fa",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cscore-cpp-2019.1.1-beta-1-sources.zip_00ed33937366c6650b3dda3511860030",
+      "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.1.1-beta-1-sources.zip_abad493c271dc18d3c6c4574bab462d6"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\cpp"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-std\u003dc++14",
+              "-g",
+              "-rdynamic",
+              "-pthread",
+              "-Og"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.1.1-beta-1-headers.zip_da0b8dbdca2899cccac49704a6540c4c",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\hal-cpp-2019.1.1-beta-1-headers.zip_631c14073a02924b1ee54e145c7a781e",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.1.1-beta-1-headers.zip_d95c0b0aa6febce043bf5bdaa1723022",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.1.1-beta-1-headers.zip_a64d646098460db05e7a9e6623023581",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cscore-cpp-2019.1.1-beta-1-headers.zip_eb789de6bd80798cb597f83fbb45206d",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.1.1-beta-1-headers.zip_e5d7150878a6b4a5ac1843a159cd4175",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.3-7-headers.zip_d334b6b28027ac480820ff757f573de4",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\chipobject-2019.4.1-headers.zip_7a5a63d24d984c4dbe8dbb3fea3f6caf",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\build\\tmp\\expandedArchives\\netcomm-2019.4.1-headers.zip_37fc4eac1734db11068f7e0a5f83c508",
+          "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include"
+        ]
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\cpp"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-std\u003dc++14",
+          "-g",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": []
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\Ryan Sheehy\\Desktop\\FRC Beta WorkSpace\\Sonar\\src\\main\\include"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-std\u003dc++14",
+          "-g",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": []
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
